@@ -2,7 +2,6 @@
 menu:
   Home: /
   Archives: /archives
-  About: /about.html
 
 # Logo Image Source
 logo_src: /blog-ai/images/logo.svg
@@ -14,7 +13,7 @@ subtitle_main: Welcome to my technology and life blog
 susbtitle_secondary: 持續學習，記錄成長。透過技術探索世界，用文字紀錄生活。
 
 # Footer About Section
-about_footer: This theme was initially developed by <a href="http://html5up.net" target="_blank">HTML5 UP</a>. It is adapted for Hexo by <a href="http://www.codeblocq.com/" target="_blank">Jonathan Klughertz</a>.<br />The source code is available on <a href="https://github.com/klugjo/hexo-theme-phantom" target="_blank">GitHub</a>.
+about_footer: 歡迎來到我的技術筆記空間！</br>這裡專注於 軟體開發 與 AI 應用 的實戰分享，從 Django、n8n、自動化流程，到 AI 工具評測與實作教學，記錄每一次嘗試與解決問題的過程。我相信技術不只是程式碼，更是將想法落地的橋樑。</br>希望透過一步步的教學、真實專案案例與工具比較，讓你能更快掌握新技術，並將 AI 融入自己的專案與工作流程。如果你對 自動化、人工智慧、全端開發 感興趣，這裡會有你需要的靈感與資源。
 
 # Default post title
 default_post_title: Untitled
@@ -42,13 +41,10 @@ comments:
 google_analytics:
 
 # Social Accounts
-twitter_url: https://twitter.com/?lang=en
-facebook_url: https://www.facebook.com/
-instagram_url: https://www.instagram.com/
-dribble_url: https://dribbble.com/
-github_url: https://github.com/klugjo/hexo-theme-phantom/commits?author=klugjo
-googleplus_url: https://plus.google.com/
-behance_url: https://www.behance.net/
-fivehundredpx_url: https://500px.com/
-email_url: \#
-rss_url: \#
+facebook_url:
+instagram_url:
+blog_url: https://cleoliu.github.io/blog-ai
+github_url: https://github.com/cleoliu
+linkin_url: https://www.linkedin.com/in/cleoliu
+profile_url: https://cleo.onrender.com/
+email_url: mailto:cleoliu.tw@gmail.com
