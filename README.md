@@ -42,16 +42,16 @@ npx hexo server --port 4000
 npx hexo new "文章標題"
 ```
 
-### 產生靜態檔案
-
-```bash
-npx hexo generate
-```
-
 ### 清理快取
 
 ```bash
 npx hexo clean
+```
+
+### 產生靜態檔案
+
+```bash
+npx hexo generate
 ```
 
 ### 部署
@@ -82,6 +82,7 @@ npx hexo deploy
 目前使用 [Phantom](https://github.com/klugjo/hexo-theme-phantom) 主題，這是一個現代化、響應式的美觀主題。您可以在 [Hexo Themes](https://hexo.io/themes/) 找到更多主題。
 
 ### 主題特色
+
 - 響應式設計，適合各種螢幕尺寸
 - 支援封面圖片展示
 - 現代化的卡片式佈局
@@ -96,6 +97,7 @@ npx hexo deploy
 #### 設定步驟：
 
 1. **推送程式碼到 GitHub**：
+
    ```bash
    git add .
    git commit -m "Update GitHub Actions workflow"
@@ -103,6 +105,7 @@ npx hexo deploy
    ```
 
 2. **啟用 GitHub Pages**：
+
    - 前往 GitHub 儲存庫設定頁面
    - 找到 "Pages" 區段
    - 在 "Source" 中選擇 "GitHub Actions"
