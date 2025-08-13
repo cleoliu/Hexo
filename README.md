@@ -98,7 +98,7 @@ npx hexo deploy
 1. **推送程式碼到 GitHub**：
    ```bash
    git add .
-   git commit -m "Initial commit"
+   git commit -m "Update GitHub Actions workflow"
    git push origin main
    ```
 
@@ -106,10 +106,12 @@ npx hexo deploy
    - 前往 GitHub 儲存庫設定頁面
    - 找到 "Pages" 區段
    - 在 "Source" 中選擇 "GitHub Actions"
+   - **重要**：確保在 "Actions" > "General" 中，"Workflow permissions" 設定為 "Read and write permissions"
 
 3. **自動部署**：
    - 每次推送到 `main` 分支時會自動觸發部署
    - 部署完成後可在 `https://cleoliu.github.io/Hexo` 查看
+   - 可以在 "Actions" 標籤中查看部署狀態
 
 #### 手動部署（可選）：
 
